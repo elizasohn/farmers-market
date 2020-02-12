@@ -7,10 +7,8 @@ function MarketSchedule(props){
     <style jsx>{`
       div {
         background-color: inherit;
-        margin:.5vw;
-        min-height:13vh;
-        min-width: 5vw;
-
+        // margin:.5vw;
+        // padding: .5vw;
       }
       `}</style>
       <h3>{props.day}</h3>
