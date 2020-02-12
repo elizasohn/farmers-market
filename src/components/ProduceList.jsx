@@ -272,7 +272,6 @@ const produceList = [
 function ProduceList(){
   return (
     <div>
-    <hr/>
     {produceList.map((produce, index) =>
       <Produce month={produce.month}
       selection={produce.selection}

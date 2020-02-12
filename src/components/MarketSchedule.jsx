@@ -6,13 +6,17 @@ function MarketSchedule(props){
     <div>
     <style jsx>{`
       div {
-        background-color: red;
+        background-color: inherit;
+        margin:.5vw;
+        min-height:13vh;
+        min-width: 5vw;
+
       }
       `}</style>
-      <h3>{props.day} - {props.location}</h3>
+      <h3>{props.day}</h3>
+      <h4>{props.location}</h4>
       <p><em>{props.hours}</em></p>
       <p><em>{props.booth}</em></p>
-      <hr/>
     </div>
   );
 }

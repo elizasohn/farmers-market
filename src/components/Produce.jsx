@@ -6,7 +6,7 @@ function Produce(props){
     <div>
     <style jsx>{`
       div {
-        background-color: blue;
+        background-color: ;
       }
       `}</style>
       <h3>{props.month}</h3>
