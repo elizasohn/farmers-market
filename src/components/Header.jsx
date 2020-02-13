@@ -15,6 +15,7 @@ function Header(){
     padding: '2vh',
     color:'white',
     textShadow: '.1vh .1vh .7vh #000000',
+    boxShadow: '.1vh .1vh .7vh #000000',
     borderRadius: '4vh',
     border: '4px solid white',
     overflow: 'hidden',
