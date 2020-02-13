@@ -7,7 +7,7 @@ var links = {
 
 function Header(){
   var headerStyle = {
-    margin: '1vh',
+    margin: '1vh auto',
     justifyContent:'left',
     backgroundImage: "url('https://img1.mashed.com/img/gallery/7-vegetables-you-should-be-eating-and-7-you-shouldnt/intro-1543595549.jpg')",
     backgroundRepeat: 'no-repeat',
@@ -18,9 +18,12 @@ function Header(){
     borderRadius: '4vh',
     border: '4px solid white',
     overflow: 'hidden',
+    width:'40%',
+    alignItems: "center",
+    textAlign:'center',
 
   }
-  
+
   return (
     <div style = {headerStyle}>
       <h1>Farmer's Market</h1>
