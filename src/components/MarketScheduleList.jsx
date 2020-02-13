@@ -2,6 +2,19 @@ import React from "react";
 import MarketSchedule from "./MarketSchedule";
 
 
+var scheduleStyle = {
+  display:'flex',
+  flexWrap: 'wrap',
+  justifyContent:'center',
+  backgroundColor: '#6fffc3',
+  padding: '2vh',
+  opacity: '.7',
+  overflow: 'visible',
+  borderRadius: '4vh',
+  margin:'10px'
+}
+
+
 const marketScheduleList = [
  {
     day: "Sunday",
@@ -42,16 +55,7 @@ const marketScheduleList = [
 ];
 
 function MarketScheduleList(){
-  var scheduleStyle = {
-    display:'flex',
-    flexWrap: 'wrap',
-    justifyContent:'center',
-    backgroundColor: '#6fffc3',
-    padding: '2vh',
-    opacity: '.7',
-    overflow: 'visible',
-    borderRadius: '4vh',
-  }
+
   return (
     <div style = {scheduleStyle}>
       {marketScheduleList.map((marketSchedule, index) =>

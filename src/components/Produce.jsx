@@ -4,23 +4,21 @@ import PropTypes from "prop-types";
 function Produce(props){
   return (
     <div>
-    <style jsx>{`
-      div {
-        background-color: ;
-      }
-      `}</style>
+      <div class='dropdown'>
       <h3>{props.month}</h3>
+      <div class='dropdown-content'>
       <ul>{props.selection.map((sel, index) =>
-      <li key={index}> {sel}</li>
-    )}</ul>
-      <hr/>
-    </div>
-  );
-}
+        <li key={index}> {sel}</li>
+      )}</ul>
+      </div>
+      </div>
+      </div>
+    );
+  }
 
-Produce.propTypes = {
-  month: PropTypes.string.isRequired,
-  selection: PropTypes.string.isRequired,
-};
+  Produce.propTypes = {
+    month: PropTypes.string.isRequired,
+    selection: PropTypes.string.isRequired,
+  };
 
-export default Produce;
+  export default Produce;
